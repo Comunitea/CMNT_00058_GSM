@@ -12,6 +12,7 @@ env/
 etc/
 build/
 /bin/
+/data/
 sandbox/
 develop-eggs/
 dist/
