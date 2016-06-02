@@ -1,0 +1,36 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#   * custom_reports
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-06-02 16:35+0000\n"
+"PO-Revision-Date: 2016-06-02 16:35+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: custom_reports
+#: view:website:sale.report_saleorder_document
+msgid "Contact person:"
+msgstr "Persona de contacto:"
+
+#. module: custom_reports
+#: view:website:sale.report_saleorder_document
+msgid "page-break-before:always;"
+msgstr "page-break-before:always;"
+
+#. module: custom_reports
+#: view:website:report.external_layout_header
+msgid "Customer data:"
+msgstr "Datos del cliente:"
+
+#. module: custom_reports
+#: view:website:report.external_layout_header
+msgid "Our data:"
+msgstr "Nuestros datos:"

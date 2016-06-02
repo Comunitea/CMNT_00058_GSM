@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- © 2016 Comunitea
+     License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl). -->
+
+<openerp>
+    <data>
+        <template id="contact_inherit" inherit_id="base.contact">
+            <xpath expr="//span[@t-esc='email']/.." position="after">
+                <div t-if="vat and 'vat' in fields" class='css_editable_mode_hidden'><i t-if="not options.get('no_marker')" class='fa fa-envelope'/> <span itemprop="vat" t-esc="vat"/></div>
+            </xpath>
+        </template>
+    </data>
+</openerp>
