@@ -52,5 +52,19 @@
             <field name="act_window_id" ref="project.action_view_task"/>
         </record>
 
+        <record id="view_task_tree2_imp_tree" model="ir.ui.view">
+            <field name="name">project.task.tree.imp_tree</field>
+            <field name="model">project.task</field>
+            <field name="inherit_id" ref="project.view_task_tree2"/>
+            <field name="arch" type="xml">
+                <tree position="attributes">
+                    <attribute name="colors">red:date_deadline and (date_deadline&lt;current_date) and state not in ['done','cancel']</attribute>
+                </tree>
+                <field name="progress" position="after">
+                    <field name="state" invisible="1"/>
+                </field>
+            </field>
+        </record>
+
     </data>
 </openerp>

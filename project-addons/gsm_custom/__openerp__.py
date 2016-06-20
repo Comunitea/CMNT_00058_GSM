@@ -12,7 +12,7 @@
     "application": False,
     "installable": True,
     "depends": [
-        "project",
+        "project", "project_stage_state"
     ],
     "data": [
         "views/project_view.xml"
