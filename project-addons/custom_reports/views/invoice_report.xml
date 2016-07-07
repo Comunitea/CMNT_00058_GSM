@@ -8,8 +8,8 @@
         <template id="report_invoice_custom" inherit_id="account.report_invoice_document">
 
             <xpath expr="//address[@t-field='o.partner_id']/../.." position="replace"></xpath>
-            <xpath expr="//span[@t-field='o.comment']/.." position="attributes">
-                <attribute name="style">page-break-before:always;</attribute>
+            <xpath expr="//div[@t-if='o.partner_id.ref']" position="replace"></xpath>
+            <xpath expr="//span[@t-field='o.comment']/.." position="replace">
             </xpath>
         </template>
 
