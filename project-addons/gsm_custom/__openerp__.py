@@ -12,9 +12,10 @@
     "application": False,
     "installable": True,
     "depends": [
-        "project", "project_stage_state"
+        "project", "project_stage_state", "hr"
     ],
     "data": [
-        "views/project_view.xml"
+        "views/project_view.xml",
+        "views/hr_view.xml",
     ],
 }

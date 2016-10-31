@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+    <menuitem id="menu_finance_bank_and_cash_hr"
+              parent="hr.menu_hr_root" name="Bank And Cash" sequence="49"/>
+      <menuitem action="account.action_view_bank_statement_tree" id="journal_cash_move_lines_hr"
+            parent="gsm_custom.menu_finance_bank_and_cash_hr"/>
+
+
+    </data>
+</openerp>
